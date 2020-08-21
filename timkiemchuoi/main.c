@@ -13,6 +13,7 @@ int main()
 	if (str == NULL || search_val == NULL || key_val == NULL)
 	{
 		printf_s("Cap phat bo nho bi loi!");
+		exit(0);
 	}
 
 	int search_len = Str_len(search_val);
